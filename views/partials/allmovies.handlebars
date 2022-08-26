@@ -3,7 +3,7 @@
    {{#each movies }}
       <div class="card m-2 p-0">
         <p class="card-header">{{ this.attributes.title }}</p>
-         <a href="/movies/{{ this.id }}"><img class="card-img-bottom" src="{{{ this.attributes.image.url }}}"></a>
+         <a href="/movies/{{ this.id }}"><img class="card-img-bottom" src="{{{ this.attributes.image.url }}}" alt="Movie poster for {{ this.attributes.title }}" ></a>
        </div>
   {{/each}}
   </div>

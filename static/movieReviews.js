@@ -6,7 +6,7 @@ const populateReviews = async (data) => {
   const card = document.createElement("div");
   card.setAttribute("class", "card-body");
 
-  const user = document.createElement("h3");
+  const user = document.createElement("h2");
   user.innerText = `${data.user}`;
   card.append(user);
 

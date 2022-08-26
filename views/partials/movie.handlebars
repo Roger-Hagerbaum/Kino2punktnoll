@@ -1,10 +1,10 @@
 <div class='container'>
   <div class='card m-2'>
-    <h5 class='card-header'>{{movie.attributes.title}}</h5>
-    <img class='card-img-top' src='{{{movie.attributes.image.url}}} ' />
+    <h1 class='card-header'>{{movie.attributes.title}}</h1>
+    <img class='card-img-top' src='{{{movie.attributes.image.url}}} 'alt= "Movie poster for {{ movie.attributes.title }}" />
     <div class='card-body'>
       <div class='rating'></div>
-      <p class='card-text'> {{{markdown movie.attributes.intro}}}</p>
+      <p class='card-text'> {{{movie.attributes.intro}}}</p>
     </div>
   </div>
 

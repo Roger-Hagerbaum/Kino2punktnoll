@@ -13,3 +13,6 @@ body {
 #listOfScreenings{
   list-style: none;
 }
+ .navbar-nav a{
+  color: white;
+ }
